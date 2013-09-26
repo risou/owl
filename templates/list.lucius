@@ -1,0 +1,15 @@
+.list {
+	margin: 0px 20px;
+}
+
+.left {
+	width: 280px;
+	height: 2em;
+	line-height: 2em;
+}
+
+.right {
+	width: 480px;
+	height: 2em;
+	line-height: 2em;
+}

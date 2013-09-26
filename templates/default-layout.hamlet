@@ -1,0 +1,10 @@
+<h1><a href="@{RootR}">#{blogTitle}</a>
+<table id="mode">
+  <tr>
+    <td class="menu"><a href="@{RootR}">home</a>
+    <td class="menu"><a href="@{ListR}">list</a>
+    <td class="menu_last"><a href="@{NewR}">post</a>
+
+$maybe msg <- mmsg
+    <div #message>#{msg}
+^{widget}

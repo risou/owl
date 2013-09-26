@@ -1,0 +1,12 @@
+.title {
+	margin: 0px;
+	padding: 0px 20px;
+}
+
+.entry {
+	padding: 0px 20px;
+}
+
+.time {
+	padding: 0px 20px;
+}

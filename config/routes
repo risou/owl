@@ -1,0 +1,12 @@
+/static StaticR Static getStatic
+/auth   AuthR   Auth   getAuth
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ RootR GET
+/list ListR GET
+/new NewR GET POST
+/entry/#EntryId EntryR GET
+/edit/#EntryId EditR GET POST
+/delete/#EntryId DeleteR GET

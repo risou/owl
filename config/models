@@ -1,0 +1,20 @@
+User
+    ident Text
+    password Text
+    salt Text
+    UniqueUser ident
+    deriving
+Email
+    email Text
+    user UserId Maybe
+    verkey Text Maybe
+    UniqueEmail email
+
+Entry
+    title Text
+    posted ZonedTime default=CURRENT_TIMESTAMP
+    mdContent Textarea
+    htmlContent Html
+    deriving
+
+-- By default this file is used in Model.hs (which is imported by Foundation.hs)

@@ -1,0 +1,10 @@
+$if null entries
+  <div class="margin">
+$else
+  <div class="margin">
+  <table class="list">
+    $forall Entity entryId entry <- entries
+      <tr>
+        <td class="left"> <a href="@{EntryR entryId}">#{entryTitle entry}</a>
+        <td class="right"> #{show $ entryPosted entry}
+  <div class="margin">

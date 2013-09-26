@@ -1,0 +1,20 @@
+Default: &defaults
+  database: owl.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: owl_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: owl_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: owl_production.sqlite3
+  poolsize: 100
+  <<: *defaults
