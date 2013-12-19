@@ -4,7 +4,8 @@ html {
 
 body {
 	background: #f5f5f5;
-	font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif;
+/*	font-family: Georgia, 'Hiragino Mincho Pro', Meiryo, serif; */
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 	margin: 0px auto;
 	padding: 0px 0px;
 	width: 800px;
