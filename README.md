@@ -19,4 +19,8 @@ You should change `approot`, `title` and `port`.
     $ cabal build
     $ ./dist/build/owl/owl Production
 
+----
 
+### github like css
+
+from [https://gist.github.com/andyferra/2554919](https://gist.github.com/andyferra/2554919)
